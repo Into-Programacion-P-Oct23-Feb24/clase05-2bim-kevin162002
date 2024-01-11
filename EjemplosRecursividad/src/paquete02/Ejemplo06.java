@@ -19,6 +19,8 @@ public class Ejemplo06 {
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
+            // esta es una forma mas optimizada para recorrer las posiciones
+            // y al tenerlas ya inicializadas antes
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -26,6 +28,8 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
+            // se inicializa variables y se las inicializa con el valor1 de 
+            // dicha posicion que seria i
         }
         
         for (int i = 0; i < valor1.length; i++) {
